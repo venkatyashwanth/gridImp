@@ -307,6 +307,6 @@ footer{
 }
 
 .copyrightTxt a:hover{
-    color: green;
+    color: #79C91B;
     transition: 0.5s linear;
 }
