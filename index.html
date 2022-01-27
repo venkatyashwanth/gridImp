@@ -84,6 +84,22 @@
             margin-right: -15px;
             margin-left: -15px;
         }
+
+        .subButton{
+            width: 90%;
+            border: none;
+            padding: 20px;
+            border-radius: 30px;
+            background-color: #79C91B;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: #FFFFFF;
+            font-family: azo-sans-web, sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+        }
     </style>
 </head>
 
@@ -230,7 +246,7 @@
                         <h5 class="footerHeading">
                             Newsletter
                         </h5>
-                        <ul class="newsLetterList mt-5">
+                        <!-- <ul class="newsLetterList mt-5">
                             <li>
                                 <input type="text" class="inpItem" placeholder="Name">
                             </li>
@@ -243,15 +259,25 @@
                                     <i class="icon-Arrow"></i>
                                 </button>
                             </li>
-                        </ul>
+                        </ul> -->
+                        <form action="./submit.html" class="mt-5">
+                            <div class="form-group">
+                                <input type="text" class="inpItem" placeholder="Name">
+                                <input type="text" class="inpItem mt-3" placeholder="Email address">
+                                <button type="submit" class="subButton mt-3 form-control">
+                                    <span>submit</span>
+                                    <i class="icon-Arrow"></i>
+                                </button>
+                            </div>
+                        </form>
                     </div>
                     <div class="col-8 m-auto m-md-0 col-md-6 col-lg-2">
                         <h5 class="footerHeading">
                             Get in touch
                         </h5>
                         <ul class="newsLetterList mt-5 gitouch">
-                            <li class="contactItems"><span>Call  <a href="#0">+44 (0)1749 372198</a></span></li>
-                            <li class="contactItems mb-5"><span>Email  <a href="#0">info@gridimp.com </a> </span></li>
+                            <li class="contactItems"><span>Call <a href="#0">+44 (0)1749 372198</a></span></li>
+                            <li class="contactItems mb-5"><span>Email <a href="#0">info@gridimp.com </a> </span></li>
                             <li>
                                 <span>
                                     Gridimp Ltd <br>
@@ -259,11 +285,11 @@
                                     Cathedral Avenue<br>
                                     Wells BA5 1JJ
                                 </span>
-                                    
+
                             </li>
                         </ul>
                     </div>
-                    
+
                     <div class="col-8 m-auto m-md-0 col-md-6 col-lg-2">
                         <h5 class="footerHeading">
                             Quick links
@@ -303,7 +329,7 @@
                     </div>
                     <div class="col-lg-2 d-none d-lg-flex flex-column justify-content-end">
                         <img src="./media/gridImpLogo.png" alt="gridLog" class="img-fluid">
-                     </div>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-4">
@@ -311,19 +337,20 @@
                     </div>
                     <div class="col-lg-4 text-center text-lg-left">
                         <!-- <pre class="copyrightTxt">© Copyright 2021 Gridimp Ltd. All Rights Reserved. Privacy   |   Terms   |   Careers</pre> -->
-                        <span  class="copyrightTxt">
-                            © Copyright 2021 Gridimp Ltd. All Rights Reserved. <a href="#0">Privacy</a>    |   <a href="#0">Terms</a>   |   <a href="#0">Careers</a>
+                        <span class="copyrightTxt">
+                            © Copyright 2021 Gridimp Ltd. All Rights Reserved. <a href="#0">Privacy</a> | <a
+                                href="#0">Terms</a> | <a href="#0">Careers</a>
                         </span>
-                        
+
                     </div>
                     <div class="col-2">
-                        
+
                     </div>
-                    
-                    
+
+
                 </div>
             </div>
-        </footer> 
+        </footer>
     </main>
 </body>
 
